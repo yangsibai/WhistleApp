@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5612B513290AAB9100EA098A /* WhistleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5612B512290AAB9100EA098A /* WhistleAppApp.swift */; };
+		5612B515290AAB9100EA098A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5612B514290AAB9100EA098A /* ContentView.swift */; };
+		5612B517290AAB9300EA098A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5612B516290AAB9300EA098A /* Assets.xcassets */; };
+		5612B51A290AAB9300EA098A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5612B519290AAB9300EA098A /* Preview Assets.xcassets */; };
+		5612B525290AAB9300EA098A /* WhistleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5612B524290AAB9300EA098A /* WhistleAppTests.swift */; };
+		5612B52F290AAB9300EA098A /* WhistleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5612B52E290AAB9300EA098A /* WhistleAppUITests.swift */; };
+		5612B531290AAB9300EA098A /* WhistleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5612B530290AAB9300EA098A /* WhistleAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5612B521290AAB9300EA098A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5612B507290AAB9100EA098A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5612B50E290AAB9100EA098A;
+			remoteInfo = WhistleApp;
+		};
+		5612B52B290AAB9300EA098A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5612B507290AAB9100EA098A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5612B50E290AAB9100EA098A;
+			remoteInfo = WhistleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5612B50F290AAB9100EA098A /* WhistleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhistleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5612B512290AAB9100EA098A /* WhistleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhistleAppApp.swift; sourceTree = "<group>"; };
+		5612B514290AAB9100EA098A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5612B516290AAB9300EA098A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5612B519290AAB9300EA098A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5612B51B290AAB9300EA098A /* WhistleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WhistleApp.entitlements; sourceTree = "<group>"; };
+		5612B520290AAB9300EA098A /* WhistleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhistleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5612B524290AAB9300EA098A /* WhistleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhistleAppTests.swift; sourceTree = "<group>"; };
+		5612B52A290AAB9300EA098A /* WhistleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhistleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5612B52E290AAB9300EA098A /* WhistleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhistleAppUITests.swift; sourceTree = "<group>"; };
+		5612B530290AAB9300EA098A /* WhistleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhistleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5612B50C290AAB9100EA098A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5612B51D290AAB9300EA098A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5612B527290AAB9300EA098A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5612B506290AAB9100EA098A = {
+			isa = PBXGroup;
+			children = (
+				5612B511290AAB9100EA098A /* WhistleApp */,
+				5612B523290AAB9300EA098A /* WhistleAppTests */,
+				5612B52D290AAB9300EA098A /* WhistleAppUITests */,
+				5612B510290AAB9100EA098A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5612B510290AAB9100EA098A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5612B50F290AAB9100EA098A /* WhistleApp.app */,
+				5612B520290AAB9300EA098A /* WhistleAppTests.xctest */,
+				5612B52A290AAB9300EA098A /* WhistleAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5612B511290AAB9100EA098A /* WhistleApp */ = {
+			isa = PBXGroup;
+			children = (
+				5612B512290AAB9100EA098A /* WhistleAppApp.swift */,
+				5612B514290AAB9100EA098A /* ContentView.swift */,
+				5612B516290AAB9300EA098A /* Assets.xcassets */,
+				5612B51B290AAB9300EA098A /* WhistleApp.entitlements */,
+				5612B518290AAB9300EA098A /* Preview Content */,
+			);
+			path = WhistleApp;
+			sourceTree = "<group>";
+		};
+		5612B518290AAB9300EA098A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5612B519290AAB9300EA098A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5612B523290AAB9300EA098A /* WhistleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5612B524290AAB9300EA098A /* WhistleAppTests.swift */,
+			);
+			path = WhistleAppTests;
+			sourceTree = "<group>";
+		};
+		5612B52D290AAB9300EA098A /* WhistleAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5612B52E290AAB9300EA098A /* WhistleAppUITests.swift */,
+				5612B530290AAB9300EA098A /* WhistleAppUITestsLaunchTests.swift */,
+			);
+			path = WhistleAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5612B50E290AAB9100EA098A /* WhistleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5612B534290AAB9300EA098A /* Build configuration list for PBXNativeTarget "WhistleApp" */;
+			buildPhases = (
+				5612B50B290AAB9100EA098A /* Sources */,
+				5612B50C290AAB9100EA098A /* Frameworks */,
+				5612B50D290AAB9100EA098A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhistleApp;
+			productName = WhistleApp;
+			productReference = 5612B50F290AAB9100EA098A /* WhistleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5612B51F290AAB9300EA098A /* WhistleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5612B537290AAB9300EA098A /* Build configuration list for PBXNativeTarget "WhistleAppTests" */;
+			buildPhases = (
+				5612B51C290AAB9300EA098A /* Sources */,
+				5612B51D290AAB9300EA098A /* Frameworks */,
+				5612B51E290AAB9300EA098A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5612B522290AAB9300EA098A /* PBXTargetDependency */,
+			);
+			name = WhistleAppTests;
+			productName = WhistleAppTests;
+			productReference = 5612B520290AAB9300EA098A /* WhistleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5612B529290AAB9300EA098A /* WhistleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5612B53A290AAB9300EA098A /* Build configuration list for PBXNativeTarget "WhistleAppUITests" */;
+			buildPhases = (
+				5612B526290AAB9300EA098A /* Sources */,
+				5612B527290AAB9300EA098A /* Frameworks */,
+				5612B528290AAB9300EA098A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5612B52C290AAB9300EA098A /* PBXTargetDependency */,
+			);
+			name = WhistleAppUITests;
+			productName = WhistleAppUITests;
+			productReference = 5612B52A290AAB9300EA098A /* WhistleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5612B507290AAB9100EA098A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					5612B50E290AAB9100EA098A = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					5612B51F290AAB9300EA098A = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 5612B50E290AAB9100EA098A;
+					};
+					5612B529290AAB9300EA098A = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 5612B50E290AAB9100EA098A;
+					};
+				};
+			};
+			buildConfigurationList = 5612B50A290AAB9100EA098A /* Build configuration list for PBXProject "WhistleApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5612B506290AAB9100EA098A;
+			productRefGroup = 5612B510290AAB9100EA098A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5612B50E290AAB9100EA098A /* WhistleApp */,
+				5612B51F290AAB9300EA098A /* WhistleAppTests */,
+				5612B529290AAB9300EA098A /* WhistleAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5612B50D290AAB9100EA098A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5612B51A290AAB9300EA098A /* Preview Assets.xcassets in Resources */,
+				5612B517290AAB9300EA098A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5612B51E290AAB9300EA098A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5612B528290AAB9300EA098A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5612B50B290AAB9100EA098A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5612B515290AAB9100EA098A /* ContentView.swift in Sources */,
+				5612B513290AAB9100EA098A /* WhistleAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5612B51C290AAB9300EA098A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5612B525290AAB9300EA098A /* WhistleAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5612B526290AAB9300EA098A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5612B52F290AAB9300EA098A /* WhistleAppUITests.swift in Sources */,
+				5612B531290AAB9300EA098A /* WhistleAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5612B522290AAB9300EA098A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5612B50E290AAB9100EA098A /* WhistleApp */;
+			targetProxy = 5612B521290AAB9300EA098A /* PBXContainerItemProxy */;
+		};
+		5612B52C290AAB9300EA098A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5612B50E290AAB9100EA098A /* WhistleApp */;
+			targetProxy = 5612B52B290AAB9300EA098A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5612B532290AAB9300EA098A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5612B533290AAB9300EA098A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5612B535290AAB9300EA098A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WhistleApp/WhistleApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WhistleApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.sibo.WhistleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5612B536290AAB9300EA098A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WhistleApp/WhistleApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WhistleApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.sibo.WhistleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5612B538290AAB9300EA098A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.sibo.WhistleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhistleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WhistleApp";
+			};
+			name = Debug;
+		};
+		5612B539290AAB9300EA098A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.sibo.WhistleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhistleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WhistleApp";
+			};
+			name = Release;
+		};
+		5612B53B290AAB9300EA098A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.sibo.WhistleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WhistleApp;
+			};
+			name = Debug;
+		};
+		5612B53C290AAB9300EA098A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.sibo.WhistleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WhistleApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5612B50A290AAB9100EA098A /* Build configuration list for PBXProject "WhistleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5612B532290AAB9300EA098A /* Debug */,
+				5612B533290AAB9300EA098A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5612B534290AAB9300EA098A /* Build configuration list for PBXNativeTarget "WhistleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5612B535290AAB9300EA098A /* Debug */,
+				5612B536290AAB9300EA098A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5612B537290AAB9300EA098A /* Build configuration list for PBXNativeTarget "WhistleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5612B538290AAB9300EA098A /* Debug */,
+				5612B539290AAB9300EA098A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5612B53A290AAB9300EA098A /* Build configuration list for PBXNativeTarget "WhistleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5612B53B290AAB9300EA098A /* Debug */,
+				5612B53C290AAB9300EA098A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5612B507290AAB9100EA098A /* Project object */;
+}
