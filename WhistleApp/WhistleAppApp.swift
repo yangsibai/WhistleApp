@@ -11,7 +11,7 @@ import SwiftUI
 struct WhistleAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().frame(idealWidth: 1280, idealHeight: 800)
         }
     }
 }
