@@ -14,6 +14,8 @@
 		5612B525290AAB9300EA098A /* WhistleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5612B524290AAB9300EA098A /* WhistleAppTests.swift */; };
 		5612B52F290AAB9300EA098A /* WhistleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5612B52E290AAB9300EA098A /* WhistleAppUITests.swift */; };
 		5612B531290AAB9300EA098A /* WhistleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5612B530290AAB9300EA098A /* WhistleAppUITestsLaunchTests.swift */; };
+		56A4617C290EAF430053440C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A4617B290EAF430053440C /* SettingsView.swift */; };
+		56A4617E290EB9DB0053440C /* DefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A4617D290EB9DB0053440C /* DefaultSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		5612B52A290AAB9300EA098A /* WhistleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhistleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5612B52E290AAB9300EA098A /* WhistleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhistleAppUITests.swift; sourceTree = "<group>"; };
 		5612B530290AAB9300EA098A /* WhistleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhistleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		56A4617B290EAF430053440C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		56A4617D290EB9DB0053440C /* DefaultSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				5612B512290AAB9100EA098A /* WhistleAppApp.swift */,
+				56A4617B290EAF430053440C /* SettingsView.swift */,
 				5612B514290AAB9100EA098A /* ContentView.swift */,
+				56A4617D290EB9DB0053440C /* DefaultSettings.swift */,
 				5612B516290AAB9300EA098A /* Assets.xcassets */,
 				5612B51B290AAB9300EA098A /* WhistleApp.entitlements */,
 				5612B518290AAB9300EA098A /* Preview Content */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56A4617C290EAF430053440C /* SettingsView.swift in Sources */,
 				5612B515290AAB9100EA098A /* ContentView.swift in Sources */,
+				56A4617E290EB9DB0053440C /* DefaultSettings.swift in Sources */,
 				5612B513290AAB9100EA098A /* WhistleAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

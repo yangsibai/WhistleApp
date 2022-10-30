@@ -13,5 +13,8 @@ struct WhistleAppApp: App {
         WindowGroup {
             ContentView().frame(idealWidth: 1280, idealHeight: 800)
         }
+        Settings {
+            SettingsView()
+        }
     }
 }

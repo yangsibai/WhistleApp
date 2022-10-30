@@ -8,28 +8,34 @@
 import SwiftUI
 import WebKit
 
-
-//HStack{
-//    Text("Whistle")
-//    Spacer()
-//
-//    Link(destination: URL(string: "http://localhost:8899/")!, label: {
-//        HStack {
-//            Image(systemName: "globe")
-//                .imageScale(.large)
-//                .foregroundColor(.accentColor)
-//            Text("Browser")
-//                .foregroundColor(.blue)
-//        }
-//    })
-//}.padding([.leading,.trailing], 10)
-
 struct ContentView: View {
+    @AppStorage("whistlePort") private var whistlePort = DefaultSettings.whistlePort;
+    
     var body: some View {
         VStack {
-            WebMacView(request: URLRequest(url: URL(string: "http://localhost:8899")!))
+            HStack{
+                Text("Whistle")
+                Spacer()
+           
+                Button(action: reload) {
+                    Label("Reload", systemImage: "arrow.triangle.2.circlepath")
+                }
+                
+                Link(destination: URL(string: "http://localhost:\(whistlePort)/")!, label: {
+                    HStack {
+                        Image(systemName: "globe")
+                            .imageScale(.large)
+                            .foregroundColor(.accentColor)
+//                        Text("Browser").foregroundColor(.blue)
+                    }
+                })
+            }.padding([.leading, .trailing, .top], 10)
+            WebMacView(request: URLRequest(url: URL(string: "http://localhost:\(whistlePort)")!))
         }
-        .padding(.top, 0)
+        .padding(0)
+    }
+    
+    func reload() {
     }
 }
 
@@ -42,7 +48,7 @@ struct WebMacView: NSViewRepresentable {
     }
     
     func updateNSView(_ nsView: WKWebView, context: Context) {
-        nsView.load(request)
+         nsView.load(request)
     }
 }
 
