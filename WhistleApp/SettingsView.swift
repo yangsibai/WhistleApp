@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct GeneralSettingsView: View {
-//    @AppStorage("showPreview") private var showPreview = true
 //    @AppStorage("fontSize") private var fontSize = 12.0
     @AppStorage("whistlePort") private var whistlePort = DefaultSettings.whistlePort;
+    @AppStorage("showToolbar") private var showToolbar = DefaultSettings.showToolbar;
 
     var body: some View {
         Form {
-//            Toggle("Show Previews", isOn: $showPreview)
+            Toggle("Show Toolbar", isOn: $showToolbar)
 //            Slider(value: $fontSize, in: 9...96) {
 //                Text("Font Size (\(fontSize, specifier: "%.0f") pts)")
 //            }

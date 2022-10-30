@@ -11,7 +11,9 @@ import SwiftUI
 struct WhistleAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView().frame(idealWidth: 1280, idealHeight: 800)
+            ContentView()
+                .navigationTitle("Whistle")
+                .frame(idealWidth: 1280, idealHeight: 800)
         }
         Settings {
             SettingsView()

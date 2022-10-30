@@ -10,9 +10,11 @@ import WebKit
 
 struct ContentView: View {
     @AppStorage("whistlePort") private var whistlePort = DefaultSettings.whistlePort;
+    @AppStorage("showToolbar") private var showToolbar = DefaultSettings.showToolbar;
     
     var body: some View {
         VStack {
+            showToolbar ?
             HStack{
                 Text("Whistle")
                 Spacer()
@@ -29,7 +31,7 @@ struct ContentView: View {
 //                        Text("Browser").foregroundColor(.blue)
                     }
                 })
-            }.padding([.leading, .trailing, .top], 10)
+            }.padding([.leading, .trailing, .top], 10) : nil
             WebMacView(request: URLRequest(url: URL(string: "http://localhost:\(whistlePort)")!))
         }
         .padding(0)

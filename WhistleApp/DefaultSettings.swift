@@ -7,5 +7,6 @@
 
 
 enum DefaultSettings {
+    static let showToolbar = false
     static let whistlePort = "8899"
 }
